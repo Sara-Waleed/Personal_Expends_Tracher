@@ -3,6 +3,7 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'Screens/PersonalExpense.dart';
+import 'Screens/Splash.dart';
 import 'cubit/transaction_cubit.dart';
 
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Expense calculator',
       debugShowCheckedModeBanner: false,
-      home: PersonalExpense(),
+      home: Splash(),
       // Adding theme globally includes (fonts and colors)
       theme: ThemeData(
         primarySwatch: Colors.pink,
